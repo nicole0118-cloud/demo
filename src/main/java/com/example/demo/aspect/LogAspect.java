@@ -20,6 +20,9 @@ import com.example.demo.domain.SysLog;
 import com.example.demo.util.HttpContextUtils;
 import com.example.demo.util.IPUtils;
 
+/**
+ * 定义一个LogAspect类，使用@Aspect标注让其成为一个切面，切点为使用@Log注解标注的方法，使用@Around环绕通知：
+ */
 @Aspect
 @Component
 public class LogAspect {
