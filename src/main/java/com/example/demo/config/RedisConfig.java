@@ -36,7 +36,7 @@ public class RedisConfig extends CachingConfigurerSupport {
         return new KeyGenerator() {
             @Override
             public Object generate(Object target, java.lang.reflect.Method method, Object... params) {
-                StringBuffer sb = new StringBuffer();
+                StringBuilder sb = new StringBuilder();
                 sb.append(target.getClass().getName());
                 sb.append(method.getName());
                 for (Object obj : params) {

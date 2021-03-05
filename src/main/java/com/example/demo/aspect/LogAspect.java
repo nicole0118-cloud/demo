@@ -68,11 +68,11 @@ public class LogAspect {
         LocalVariableTableParameterNameDiscoverer u = new LocalVariableTableParameterNameDiscoverer();
         String[] paramNames = u.getParameterNames(method);
         if (args != null && paramNames != null) {
-            String params = "";
+            StringBuilder params = new StringBuilder();
             for (int i = 0; i < args.length; i++) {
-                params += "  " + paramNames[i] + ": " + args[i];
+                params.append("  ").append(paramNames[i]).append(": ").append(args[i]);
             }
-            sysLog.setParams(params);
+            sysLog.setParams(params.toString());
         }
         // 获取request
         HttpServletRequest request = HttpContextUtils.getHttpServletRequest();

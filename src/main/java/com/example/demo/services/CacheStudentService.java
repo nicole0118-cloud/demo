@@ -27,7 +27,6 @@ public interface CacheStudentService {
      * 更CacheEvict：配置于函数上，通常用在删除方法上，用来从缓存中移除相应数据
      * allEntries：非必需，默认为false。当为true时，会移除所有数据
      * @param sno sno
-     * @return student
      */
     @CacheEvict(key = "#p0", allEntries = true)
     void deleteStudentBySno(String sno);

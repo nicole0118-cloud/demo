@@ -1,16 +1,12 @@
 package com.example.demo.dao;
 
 import com.example.demo.domain.Student;
-import org.apache.ibatis.annotations.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Map;
 
 /**
- * @author Nicole
+ * /@author Nicole
  */
 
 /**
@@ -39,7 +35,8 @@ import java.util.Map;
 //}
 
 /**
- * 使用JdbcTemplate数据库框架*/
+ * 使用JdbcTemplate数据库框架
+ * @author Nicole*/
 public interface StudentDao {
     int add(Student student);
 
