@@ -23,7 +23,7 @@ import java.util.List;
 @RestController
 @ResponseBody
 @Slf4j
-public class UserIndoController {
+public class UserInfoController {
 
     @Autowired
     private ObjectMapper mapper;
