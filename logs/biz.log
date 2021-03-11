@@ -41,3 +41,9 @@
 [21-03-11 16:34:41:773][INFO ][DemoApplication][logStarting(55)][restartedMain]: Starting DemoApplication using Java 1.8.0_241 on DESKTOP-8IG72HQ with PID 22856 (E:\2021骞村伐浣滆褰昞java study program\demo\target\classes started by Nicole in E:\2021骞村伐浣滆褰昞java study program\demo)
 [21-03-11 16:34:41:776][INFO ][DemoApplication][logStartupProfileInfo(660)][restartedMain]: No active profile set, falling back to default profiles: default
 [21-03-11 16:34:45:560][INFO ][DemoApplication][logStarted(61)][restartedMain]: Started DemoApplication in 4.288 seconds (JVM running for 5.984)
+[21-03-11 17:11:04:066][INFO ][DemoApplicationTests][logStarting(55)][main]: Starting DemoApplicationTests using Java 1.8.0_241 on DESKTOP-8IG72HQ with PID 2136 (started by Nicole in E:\2021年工作记录\java study program\demo)
+[21-03-11 17:11:04:069][INFO ][DemoApplicationTests][logStartupProfileInfo(660)][main]: No active profile set, falling back to default profiles: default
+[21-03-11 17:11:10:220][INFO ][DemoApplicationTests][logStarted(61)][main]: Started DemoApplicationTests in 6.604 seconds (JVM running for 7.971)
+[21-03-11 17:11:46:790][INFO ][DemoApplicationTests][logStarting(55)][main]: Starting DemoApplicationTests using Java 1.8.0_241 on DESKTOP-8IG72HQ with PID 16936 (started by Nicole in E:\2021年工作记录\java study program\demo)
+[21-03-11 17:11:46:794][INFO ][DemoApplicationTests][logStartupProfileInfo(660)][main]: No active profile set, falling back to default profiles: default
+[21-03-11 17:11:52:544][INFO ][DemoApplicationTests][logStarted(61)][main]: Started DemoApplicationTests in 6.16 seconds (JVM running for 7.253)

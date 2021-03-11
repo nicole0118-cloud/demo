@@ -4509,3 +4509,41 @@ Unconditional classes:
 [21-03-11 16:34:45:497][INFO ][DispatcherServlet][initServletBean(547)][http-nio-8080-exec-1]: Completed initialization in 1 ms
 [21-03-11 16:34:46:460][INFO ][HikariDataSource][getConnection(110)][RMI TCP Connection(2)-2.0.1.178]: HikariPool-1 - Starting...
 [21-03-11 16:34:47:721][INFO ][HikariDataSource][getConnection(123)][RMI TCP Connection(2)-2.0.1.178]: HikariPool-1 - Start completed.
+[21-03-11 17:11:05:429][INFO ][RepositoryConfigurationDelegate][multipleStoresDetected(250)][main]: Multiple Spring Data modules found, entering strict repository configuration mode!
+[21-03-11 17:11:05:434][INFO ][RepositoryConfigurationDelegate][registerRepositoriesIn(128)][main]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[21-03-11 17:11:05:476][INFO ][RepositoryConfigurationDelegate][registerRepositoriesIn(188)][main]: Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+[21-03-11 17:11:06:279][INFO ][PostProcessorRegistrationDelegate$BeanPostProcessorChecker][postProcessAfterInitialization(376)][main]: Bean 'redisConfig' of type [com.example.demo.config.RedisConfig$$EnhancerBySpringCGLIB$$8dd2b080] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[21-03-11 17:11:08:501][INFO ][EndpointLinksResolver][<init>(58)][main]: Exposing 14 endpoint(s) beneath base path '/monitor'
+[21-03-11 17:11:08:770][INFO ][PropertySourcedRequestMappingHandlerMapping][initHandlerMethods(69)][main]: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[21-03-11 17:11:09:097][INFO ][ThreadPoolTaskExecutor][initialize(181)][main]: Initializing ExecutorService 'applicationTaskExecutor'
+[21-03-11 17:11:09:369][INFO ][MapperCacheDisabler][removeStaticCache(60)][main]: Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+[21-03-11 17:11:09:370][INFO ][MapperCacheDisabler][removeStaticCache(60)][main]: Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+[21-03-11 17:11:09:370][INFO ][MapperCacheDisabler][removeStaticCache(60)][main]: Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+[21-03-11 17:11:09:371][INFO ][MapperCacheDisabler][removeEntityHelperCache(83)][main]: Clear EntityHelper entityTableMap cache.
+[21-03-11 17:11:09:840][INFO ][DocumentationPluginsBootstrapper][start(160)][main]: Context refreshed
+[21-03-11 17:11:09:871][INFO ][DocumentationPluginsBootstrapper][start(163)][main]: Found 1 custom documentation plugin(s)
+[21-03-11 17:11:09:921][INFO ][ApiListingReferenceScanner][scan(41)][main]: Scanning for api listing references
+[21-03-11 17:11:13:661][INFO ][HikariDataSource][getConnection(110)][main]: HikariPool-1 - Starting...
+[21-03-11 17:11:14:974][INFO ][HikariDataSource][getConnection(123)][main]: HikariPool-1 - Start completed.
+[21-03-11 17:11:15:203][INFO ][ThreadPoolTaskExecutor][shutdown(218)][SpringContextShutdownHook]: Shutting down ExecutorService 'applicationTaskExecutor'
+[21-03-11 17:11:15:345][INFO ][HikariDataSource][close(350)][SpringContextShutdownHook]: HikariPool-1 - Shutdown initiated...
+[21-03-11 17:11:15:364][INFO ][HikariDataSource][close(352)][SpringContextShutdownHook]: HikariPool-1 - Shutdown completed.
+[21-03-11 17:11:48:039][INFO ][RepositoryConfigurationDelegate][multipleStoresDetected(250)][main]: Multiple Spring Data modules found, entering strict repository configuration mode!
+[21-03-11 17:11:48:043][INFO ][RepositoryConfigurationDelegate][registerRepositoriesIn(128)][main]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[21-03-11 17:11:48:081][INFO ][RepositoryConfigurationDelegate][registerRepositoriesIn(188)][main]: Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+[21-03-11 17:11:48:851][INFO ][PostProcessorRegistrationDelegate$BeanPostProcessorChecker][postProcessAfterInitialization(376)][main]: Bean 'redisConfig' of type [com.example.demo.config.RedisConfig$$EnhancerBySpringCGLIB$$24a1c17] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[21-03-11 17:11:50:957][INFO ][EndpointLinksResolver][<init>(58)][main]: Exposing 14 endpoint(s) beneath base path '/monitor'
+[21-03-11 17:11:51:251][INFO ][PropertySourcedRequestMappingHandlerMapping][initHandlerMethods(69)][main]: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[21-03-11 17:11:51:529][INFO ][ThreadPoolTaskExecutor][initialize(181)][main]: Initializing ExecutorService 'applicationTaskExecutor'
+[21-03-11 17:11:51:801][INFO ][MapperCacheDisabler][removeStaticCache(60)][main]: Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+[21-03-11 17:11:51:802][INFO ][MapperCacheDisabler][removeStaticCache(60)][main]: Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+[21-03-11 17:11:51:803][INFO ][MapperCacheDisabler][removeStaticCache(60)][main]: Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+[21-03-11 17:11:51:803][INFO ][MapperCacheDisabler][removeEntityHelperCache(83)][main]: Clear EntityHelper entityTableMap cache.
+[21-03-11 17:11:52:175][INFO ][DocumentationPluginsBootstrapper][start(160)][main]: Context refreshed
+[21-03-11 17:11:52:204][INFO ][DocumentationPluginsBootstrapper][start(163)][main]: Found 1 custom documentation plugin(s)
+[21-03-11 17:11:52:257][INFO ][ApiListingReferenceScanner][scan(41)][main]: Scanning for api listing references
+[21-03-11 17:11:55:817][INFO ][HikariDataSource][getConnection(110)][main]: HikariPool-1 - Starting...
+[21-03-11 17:11:57:123][INFO ][HikariDataSource][getConnection(123)][main]: HikariPool-1 - Start completed.
+[21-03-11 17:11:57:267][INFO ][ThreadPoolTaskExecutor][shutdown(218)][SpringContextShutdownHook]: Shutting down ExecutorService 'applicationTaskExecutor'
+[21-03-11 17:11:57:402][INFO ][HikariDataSource][close(350)][SpringContextShutdownHook]: HikariPool-1 - Shutdown initiated...
+[21-03-11 17:11:57:434][INFO ][HikariDataSource][close(352)][SpringContextShutdownHook]: HikariPool-1 - Shutdown completed.

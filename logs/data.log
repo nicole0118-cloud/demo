@@ -64,3 +64,26 @@
 [21-03-11 16:34:43:028][WARN ][ClassPathMapperScanner][warn(44)][restartedMain]: Skipping MapperFactoryBean with name 'userMapper' and 'com.example.demo.Mapper.UserMapper' mapperInterface. Bean already defined with the same name!
 [21-03-11 16:34:43:028][WARN ][ClassPathMapperScanner][warn(44)][restartedMain]: Skipping MapperFactoryBean with name 'happinessDao' and 'com.example.demo.dao.HappinessDao' mapperInterface. Bean already defined with the same name!
 [21-03-11 16:34:43:029][WARN ][ClassPathMapperScanner][warn(44)][restartedMain]: No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[21-03-11 17:11:05:657][WARN ][ClassPathMapperScanner][warn(44)][main]: Skipping MapperFactoryBean with name 'cacheStudentMapper' and 'com.example.demo.Mapper.CacheStudentMapper' mapperInterface. Bean already defined with the same name!
+[21-03-11 17:11:05:657][WARN ][ClassPathMapperScanner][warn(44)][main]: Skipping MapperFactoryBean with name 'userMapper' and 'com.example.demo.Mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+[21-03-11 17:11:05:658][WARN ][ClassPathMapperScanner][warn(44)][main]: Skipping MapperFactoryBean with name 'happinessDao' and 'com.example.demo.dao.HappinessDao' mapperInterface. Bean already defined with the same name!
+[21-03-11 17:11:05:658][WARN ][ClassPathMapperScanner][warn(44)][main]: No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[21-03-11 17:11:14:985][DEBUG][queryStudentBySno][debug(137)][main]: ==>  Preparing: select * from student where sno=?
+[21-03-11 17:11:15:027][DEBUG][queryStudentBySno][debug(137)][main]: ==> Parameters: 002(String)
+[21-03-11 17:11:15:060][DEBUG][queryStudentBySno][debug(137)][main]: <==      Total: 1
+[21-03-11 17:11:15:126][DEBUG][update][debug(137)][main]: ==>  Preparing: update student set name=?,sex=? where sno=?
+[21-03-11 17:11:15:127][DEBUG][update][debug(137)][main]: ==> Parameters: cary(String), M(String), 001(String)
+[21-03-11 17:11:15:132][DEBUG][update][debug(137)][main]: <==    Updates: 1
+[21-03-11 17:11:15:133][DEBUG][queryStudentBySno][debug(137)][main]: ==>  Preparing: select * from student where sno=?
+[21-03-11 17:11:15:134][DEBUG][queryStudentBySno][debug(137)][main]: ==> Parameters: 001(String)
+[21-03-11 17:11:15:137][DEBUG][queryStudentBySno][debug(137)][main]: <==      Total: 1
+[21-03-11 17:11:48:229][WARN ][ClassPathMapperScanner][warn(44)][main]: Skipping MapperFactoryBean with name 'cacheStudentMapper' and 'com.example.demo.Mapper.CacheStudentMapper' mapperInterface. Bean already defined with the same name!
+[21-03-11 17:11:48:230][WARN ][ClassPathMapperScanner][warn(44)][main]: Skipping MapperFactoryBean with name 'userMapper' and 'com.example.demo.Mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+[21-03-11 17:11:48:230][WARN ][ClassPathMapperScanner][warn(44)][main]: Skipping MapperFactoryBean with name 'happinessDao' and 'com.example.demo.dao.HappinessDao' mapperInterface. Bean already defined with the same name!
+[21-03-11 17:11:48:231][WARN ][ClassPathMapperScanner][warn(44)][main]: No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[21-03-11 17:11:57:131][DEBUG][update][debug(137)][main]: ==>  Preparing: update student set name=?,sex=? where sno=?
+[21-03-11 17:11:57:166][DEBUG][update][debug(137)][main]: ==> Parameters: cary(String), M(String), 001(String)
+[21-03-11 17:11:57:171][DEBUG][update][debug(137)][main]: <==    Updates: 1
+[21-03-11 17:11:57:174][DEBUG][queryStudentBySno][debug(137)][main]: ==>  Preparing: select * from student where sno=?
+[21-03-11 17:11:57:174][DEBUG][queryStudentBySno][debug(137)][main]: ==> Parameters: 001(String)
+[21-03-11 17:11:57:203][DEBUG][queryStudentBySno][debug(137)][main]: <==      Total: 1
